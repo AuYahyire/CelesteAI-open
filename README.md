@@ -92,6 +92,16 @@ CelesteAI-open/
 ├── LICENSE                        # Licencia (Apache-2.0)
 └── requirements.txt               # Dependencias
 ```
+```mermaid
+flowchart TD
+    TG[Telegram Bot API] -->|Webhook HTTPS| FA[(app.py)]
+    FA -->|Tool calls / Responses API| OA[OpenAI GPT-4.x]
+    FA -->|Persistencia de contexto| DB[(MySQL 8.0)]
+    OA -->|Respuesta generada| FA
+    FA -->|Mensaje procesado| TG
+    classDef box fill:#eef7ff,stroke:#6aa0ff,stroke-width:1px;
+    class TG,FA,OA,DB box;
+```
 
 ## 🚀 Inicio Rápido
 
