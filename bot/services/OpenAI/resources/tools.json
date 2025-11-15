@@ -1,0 +1,54 @@
+[
+    {
+        "name": "guardar_recordatorio",
+        "description": "Guarda un recordatorio del usuario. Puede ser simple o repetido, si se especifica una regla RRULE con el campo 'rrule'.",
+        "type": "function",
+        "strict": true,
+        "parameters": {
+            "type": "object",
+            "required": [
+                "texto",
+                "fecha",
+                "rrule"
+            ],
+        "properties": {
+            "fecha": {
+                "type": "string",
+                "description": "La fecha y hora de cuando debe ser el recordatorio formato estricto: YYYY-MM-DDTHH:MM:SS"
+                },
+            "texto": {
+                "type": "string",
+                "description": "El texto o motivo del recordatorio"
+                },
+            "rrule": {
+                "type": ["string", "null"],
+                "description": "Regla de repetición en formato RRULE iCalendar RFC 5545 (por ejemplo: 'FREQ=WEEKLY;INTERVAL=2'). Si se omite (NULL), el recordatorio es único."
+                }
+            },
+        "additionalProperties": false
+        }
+    },
+    {
+        "name": "consultar_fecha_hora_actual",
+        "description": "Consulta la fecha y hora actual",
+        "type": "function",
+        "strict": true,
+        "parameters": {
+            "type": "object",
+            "required": [
+                "pregunta"
+            ],
+            "properties": {
+                "pregunta": {
+                    "type": ["string", "null"],
+                    "description": "Aquí haces la consulta de la hora actual a la función, simplemente pregunta"
+                }
+            },
+            "additionalProperties": false
+        }
+    },
+    {
+        "type": "web_search_preview"
+    }
+
+]
