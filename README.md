@@ -23,7 +23,7 @@
 - Traducción EN↔ES, incluyendo imágenes (acceso restringido por rol; personalizable).
 - Arquitectura extensible con registro de herramientas tipo plugin.
 
-### 🔐 Seguridad (alcance realista)
+### 🔐 Seguridad
 - Autorización por chat/usuario y rol de administrador.
 - Saneamiento básico de entradas (formato HTML/Markdown de Telegram).
 - Configuración por entorno (.env) para credenciales y secretos.
