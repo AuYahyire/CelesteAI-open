@@ -7,6 +7,11 @@
 [![Telegram](https://img.shields.io/badge/Telegram-Bot%20API-blue.svg)](https://core.telegram.org/bots/api)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0+-orange.svg)](https://mysql.com)
 
+<div align="center">
+  <img src="bot/assets/CelesteAI_demo1.gif" alt="Demo del bot" width="250">
+</div>
+
+
 > Bot para Telegram impulsado por OpenAI (Responses API), con contexto persistente, herramientas integradas y recordatorios. Proyecto publicado como portafolio técnico.
 
 ## 🌟 Funcionalidades Clave
@@ -40,6 +45,7 @@
 ```
 CelesteAI-open/
 ├── bot/                           # Implementación principal del bot
+│   ├── assets/                    # Recursos gráficos
 │   ├── core/                      # Componentes esenciales
 │   │   ├── config.py              # Gestión de entorno y configuración
 │   │   ├── logger.py              # Sistema centralizado de logs
