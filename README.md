@@ -14,6 +14,8 @@
 
 > Bot para Telegram impulsado por OpenAI (Responses API), con contexto persistente, herramientas integradas y recordatorios. Proyecto publicado como portafolio técnico.
 
+### Si te resulta útil, deja una ⭐ en el repo.
+
 ## 🌟 Funcionalidades Clave
 
 ### 🧠 Gestión de Conversaciones
@@ -266,6 +268,8 @@ Este bot fue creado originalmente para uso privado y ahora se publica principalm
 
 Este proyecto lo mantengo como un portafolio personal de buenas prácticas y arquitectura avanzada en Python. No existe un canal formal de soporte.  
 Sin embargo, te animo a explorar el código, aprender de él y adaptarlo a tus propios proyectos.
+
+Si te sirve de referencia, considera dejar una ⭐ para apoyar.
 
 ## 📄 Licencia
 
