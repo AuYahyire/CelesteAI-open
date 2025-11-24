@@ -1,4 +1,4 @@
-
+## Si te resulta útil, deja una ⭐ en el repo.
 # 🤖 CelesteAI - Bot Inteligente para Telegram
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
@@ -14,7 +14,7 @@
 
 > Bot para Telegram impulsado por OpenAI (Responses API), con contexto persistente, herramientas integradas y recordatorios. Proyecto publicado como portafolio técnico.
 
-### Si te resulta útil, deja una ⭐ en el repo.
+
 
 ## 🌟 Funcionalidades Clave
 
