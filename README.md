@@ -14,6 +14,15 @@
 
 > Bot para Telegram impulsado por OpenAI (Responses API), con contexto persistente, herramientas integradas y recordatorios. Proyecto publicado como portafolio técnico.
 
+**TL;DR (ES)**: Bot de Telegram tipo “ChatGPT en tu teléfono”, con:
+- Memoria persistente en MySQL
+- Recordatorios recurrentes
+- Tool calls vía OpenAI Responses API
+
+**TL;DR (EN)**: ChatGPT‑like Telegram bot (Python + FastAPI + MySQL) with:
+- Persistent conversation memory
+- Recurring reminders
+- Tool calls via OpenAI Responses API
 
 
 ## 🌟 Funcionalidades Clave
@@ -247,7 +256,10 @@ curl -X POST "https://api.telegram.org/bot$TOKEN_TELEGRAM/setWebhook" \
 - No incluye Dockerfile ni orquestación; pensado para despliegues sencillos (Railway, VM, etc.).
 - Scheduler y tareas se ejecutan en el proceso de la app; no hay colas externas.
 - No orientado a alta disponibilidad ni a carga masiva.
-- No hay canal formal de soporte; el repo se publica como referencia de arquitectura.
+- Este proyecto se mantiene como portafolio personal.  
+# No puedo garantizar respuesta rápida a issues o PR, pero:
+- Los PR pequeños y bien explicados son muy bienvenidos.
+- Issues que reporten bugs claros ayudan mucho a mejorar el ejemplo.
 
 ## 🤝 Contribuir
 
@@ -273,7 +285,7 @@ Si te sirve de referencia, considera dejar una ⭐ para apoyar.
 
 ## 📄 Licencia
 
-Este proyecto está bajo licencia MIT – consulta el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto está bajo licencia Apache-2.0 – consulta el archivo [LICENSE](LICENSE) para más detalles.
 
 ## 🔗 Tecnologías Utilizadas
 
